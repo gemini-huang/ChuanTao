@@ -1,0 +1,131 @@
+/*搜索框模块*/
+.ct_search {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.ct_search form .search_input {
+    background-color: #ffffff;
+    border: 1px solid #006699;
+    text-align: left;
+    font-size: 12px;
+}
+
+.ct_search form .search_btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 60px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #006699;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 0 6px 6px 0;
+}
+
+/*排序模块*/
+.ct_order {
+    width: 100%;
+    background-color: #efeff4;
+    height: 30px;
+}
+
+.ct_order a {
+    width: 25%;
+    float: left;
+    height: 30px;
+    color: #333;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.ct_order a.now {
+    color: orange;
+}
+
+/*商品模块*/
+.ct_product {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.ct_product .pro_item {
+    float: left;
+    width: 48%;
+    margin-top: 10px;
+}
+
+.ct_product .pro_item .pro_item_box {
+    display: block;
+    box-shadow: 0 0 3px #ddd;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.ct_product .pro_item:nth-child(2n) {
+    margin-left: 4%;
+}
+
+.ct_product .pro_item .pro_item_box img {
+    width: 100%;
+    display: block;
+}
+
+.ct_product .pro_item .pro_item_box p:first-of-type {
+    padding: 0 10px;
+}
+
+.ct_product .pro_item .pro_item_box .nowPrice {
+    font-size: 12px;
+    color: red;
+}
+
+.ct_product .pro_item .pro_item_box p:last-of-type {
+    text-align: center;
+}
+
+.ct_product .pro_item .pro_item_box .oldPrice {
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.ct_product .pro_item .pro_item_box button {
+    background: #006699;
+    color: #fff;
+}
+/*搜索历史*/
+.ct_history {
+    font-size: 12px;
+    padding: 0 10px;
+    color: #999999;
+    padding-bottom: 50px;
+}
+
+.ct_history .fa-trash {
+    height: 21px;
+    line-height: 21px;
+}
+
+.ct_history ul {
+    border-bottom: 1px dashed #cccccc;
+    margin-top: 10px;
+}
+
+.ct_history ul li {
+    border: 1px dashed #cccccc;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: none;
+    padding-left: 10px;
+}
+
+.ct_history ul li .mui-icon-closeempty {
+    float: right;
+    margin-top: 2px;
+}
